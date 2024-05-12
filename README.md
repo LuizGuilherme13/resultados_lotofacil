@@ -1,7 +1,5 @@
 # Gerador de apostas Lotofácil
 
-## Como usar
-
 ### 1. Clone o projeto
 
 ```bash
