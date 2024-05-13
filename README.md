@@ -1,47 +1,43 @@
 # Gerador de apostas Lotofácil
 
-### 1. Clone o projeto
+### 1. Instalando
 
 ```bash
-git clone github.com/LuizGuilherme13/resultados_lotofacil
-```
-
-```bash
-cd resultados_lotofacil
-```
-
-```bash
-go build -o loto
+go install github.com/LuizGuilherme13/resultados_lotofacil@latest
 ```
 
 ### 2. Como usar
 
+```bash
+cd ~/go/bin
+```
+
 Busca os resultados dos sorteios
 
 ```bash
-./loto get
+./resultados_lotofacil get
 ```
 
 Busca os resultados dos sorteios de acorda com o período passado
 
 ```bash
-./loto get i- dd/mm/yyyy -f  dd/mm/yyyy
+./resultados_lotofacil get i- dd/mm/yyyy -f  dd/mm/yyyy
 ```
 
 Exibe os resultados no terminal
 
 ```bash
-./loto see
+./resultados_lotofacil see
 ```
 
 Gera uma aposta de acordo com os números mais sorteados de acordo com os resultados buscados.
 
 ```bash
-./loto generate
+./resultados_lotofacil generate
 ```
 
 Gera a quantidade informada em -q
 
 ```bash
-./loto generate -q 3
+./resultados_lotofacil generate -q 3
 ```
